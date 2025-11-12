@@ -54,5 +54,4 @@ jobs:
           --cpu 1 \
           --max-instances 1 \
           --project ${{ secrets.GCP_PROJECT_ID  }} \
-          --service-account ${{ secrets.GCP_PROJECT_SA_NAME }} \
           --set-env-vars MY_ENV=${{ env.MY_PROJECT_ENV }} \
